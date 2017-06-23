@@ -1,5 +1,6 @@
 # Sexcoin-Bootstrap
-**Bootstrap files for quick blockchain synchronization**
+
+[**Bootstrap files for quick blockchain synchronization**](https://github.com/sexcoin-project/sexcoin-bootstrap/releases)
 
 **bootstrap.dat** allows a new Sexcoin client (not synced) to rapidly import the initial blocks from a local file instead of slowly downloading blocks from random peers. This significantly reduces the time it takes to get a client synced with the current blockchain.
 
