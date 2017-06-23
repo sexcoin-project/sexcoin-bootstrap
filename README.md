@@ -45,5 +45,5 @@ You can also search for the directory with the following command: <code>find / -
 - Mac: Sexcoin's data directory should be located in <code>~/Library/Application Support/Sexcoin/</code>.
 
 - Windows: Go to <code>Start>Run</code> (or press <code>WinKey+R</code>) and run: <code>explorer %APPDATA%\Sexcoin</code>
-Sexcoin's [[#Data directory chart|data directory]] will open. "AppData" and "Application Data" are hidden by default in Windows.
+Sexcoin's data directory will open. "AppData" and "Application Data" are hidden by default in Windows.
 
