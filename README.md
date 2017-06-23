@@ -9,10 +9,10 @@ Simply having bootstrap.dat in Sexcoin's expected data directory will make your 
 Regardless of your operating system use the following steps to make use of the bootstrap.dat file:
 
 1. Download bootstrap.dat.gz OR bootstrap.dat.zip from github or mirrors.
-2. Verify the integrity of bootstrap.dat.gz with the checksums.
+2. Verify the integrity of the compressed bootstrap.dat file with the checksums.
 3. Decompress to obtain bootstrap.dat.
 4. Put it into the Sexcoin datadir.  This is the same folder that contains wallet.dat and the blocks folder.
-5. Delete bootstrap.dat.old when syncing is finished to recover some storage space.
+5. Delete bootstrap.dat.old when syncing is finished if you wish to recover some storage space.
 
 ## Download bootstrap.dat
 You can download bootstrap.dat from sexcoin-project's bootstrap github.
