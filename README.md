@@ -6,7 +6,7 @@
 
 **bootstrap.dat** allows a new Sexcoin client (not synced) to rapidly import the initial blocks from a local file instead of slowly downloading blocks from random peers. This significantly reduces the time it takes to get a client synced with the current blockchain.
 
-Simply having bootstrap.dat in Sexcoin's expected data directory will make your initial block sync much faster. The import process can be even faster if you use the *-dbcache=1000* command line parameter which uses an additional 1GB of RAM for the database index cache. Sexcoin v0.10.4.0+ with SSE2 PoW validation can make import even faster if you have SSD drives.
+Simply having bootstrap.dat in Sexcoin's expected data directory will make your initial block sync much faster. The import process can be even faster if you use the *-dbcache=1024* command line parameter which uses an additional 1GB of RAM for the database index cache. Sexcoin v0.10.4.0+ with SSE2 PoW validation can make import even faster if you have SSD drives.
 
 ## Overview 
 Regardless of your operating system use the following steps to make use of the bootstrap.dat file:
@@ -19,17 +19,17 @@ Regardless of your operating system use the following steps to make use of the b
 
 ## Download bootstrap.dat
 You can download bootstrap.dat from sexcoin-project's bootstrap github.
-- bootstrap.dat was last built on 2017-06-22.
+- bootstrap.dat was last built on 2017-07-01.
 
 ## Verify integrity
 #### bootstrap.dat.gz
- * MD5 : 3bf1159de9f0af83649c268432cf896d
- * SHA1: e4c8af686ac99cf7d4e5102f87e37637373fe5b8
- * SHA256: 0c95fa9c12b0961b887baf4ec9647cd45dc97a742f9354d1aad563491ba15249
+ * MD5 : e4c2c3c5e41ca968932b06f9c7967a66
+ * SHA1: 306e16e6a5d6f3a5bd7384f25dec0d1da12f1583
+ * SHA256: ea680573dea3ccc195877e825885c892ed76e3561a75de5d5c6fbefd4d814ec1
  #### bootstrap.dat.zip
- * MD5 : 6d295030162b1094a6e9dcd6f2dd2dd4
- * SHA1: 3420f5c64370ed545c77c5756b008455819c1588
- * SHA256: eb8a01dc15cc163ada11fade48b143d4dfabc54e135dd100aa373789d9d1ab52
+ * MD5 : bee6cb3497abc96e40c4dbe28e8b1cbc
+ * SHA1: fd2efa122310bd7e042b68e71b0ef4feb022d26f
+ * SHA256: c922aa523587f80b34069e66906dca26128db6e1904223bf3831e9e7c51506e4
 
 ## Extract bootstrap.dat 
 * Linux: <code>gunzip bootstrap.dat.gz</code>
@@ -39,7 +39,7 @@ You can download bootstrap.dat from sexcoin-project's bootstrap github.
 ## Copy bootstrap.dat to data directory
 Copy '''bootstrap.dat''' to your data directory. After Sexcoin has used bootstrap.dat, the file will be renamed to bootstrap.dat.old; at this point you can choose to delete it or keep it.
 
-- Linux: Sexcoin's data directory is located in <code>~/.litecoin/</code> by default. You can run <code>ls -a</code> to see directories that start with a dot.
+- Linux: Sexcoin's data directory is located in <code>~/.sexcoin/</code> by default. You can run <code>ls -a</code> to see directories that start with a dot.
 You can also search for the directory with the following command: <code>find / -name wallet.dat -print 2>/dev/null</code>
 
 - Mac: Sexcoin's data directory should be located in <code>~/Library/Application Support/Sexcoin/</code>.
