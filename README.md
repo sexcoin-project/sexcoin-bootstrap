@@ -19,17 +19,17 @@ Regardless of your operating system use the following steps to make use of the b
 
 ## Download bootstrap.dat
 You can download bootstrap.dat from sexcoin-project's bootstrap github.
-- bootstrap.dat was last built on 2017-07-01.
+- bootstrap.dat was last built on 2018-12-07.
 
 ## Verify integrity
 #### bootstrap.dat.gz
- * MD5 : e4c2c3c5e41ca968932b06f9c7967a66
- * SHA1: 306e16e6a5d6f3a5bd7384f25dec0d1da12f1583
- * SHA256: ea680573dea3ccc195877e825885c892ed76e3561a75de5d5c6fbefd4d814ec1
+ * MD5 : eb092ded7e9c5ad3cd4b2fc28c7e6331
+ * SHA1: e5dda169ffde42687af759983d0e47833f2aeec0
+ * SHA256: ed10aec5e90d05a500480219ab55308d12e16d4ff58a3f14d63f6b8aa1eb1570
  #### bootstrap.dat.zip
- * MD5 : bee6cb3497abc96e40c4dbe28e8b1cbc
- * SHA1: fd2efa122310bd7e042b68e71b0ef4feb022d26f
- * SHA256: c922aa523587f80b34069e66906dca26128db6e1904223bf3831e9e7c51506e4
+ * MD5 : 9440b6bb2e1e565917863b31701e6911
+ * SHA1: 1226e9437d5c1a6183a84d3f1d98c9a44bf38f5c
+ * SHA256: 3f34dd125553ff1b0408d0515f95b483a7fb1014814446169f2ec852d284ba45
 
 ## Extract bootstrap.dat 
 * Linux: <code>gunzip bootstrap.dat.gz</code>
