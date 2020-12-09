@@ -19,17 +19,24 @@ Regardless of your operating system use the following steps to make use of the b
 
 ## Download bootstrap.dat
 You can download bootstrap.dat from sexcoin-project's bootstrap github.
-- bootstrap.dat was last built on 2018-12-07.
+- bootstrap.dat was last built on 2020-12-08.
 
 ## Verify integrity
+#### bootstrap.dat
+* md5:    64b9d52c8b8e64972d71c7a90f49a579  -
+* sha1:   d119c77a474575f5196b05d453e5f3ca5ebb5a0b  -
+* sha256: 142f359cafe8adcee1e942464d65e8bae64042719f325214713215a2e970c62e  -
+
 #### bootstrap.dat.gz
- * MD5 : eb092ded7e9c5ad3cd4b2fc28c7e6331
- * SHA1: e5dda169ffde42687af759983d0e47833f2aeec0
- * SHA256: ed10aec5e90d05a500480219ab55308d12e16d4ff58a3f14d63f6b8aa1eb1570
- #### bootstrap.dat.zip
- * MD5 : 9440b6bb2e1e565917863b31701e6911
- * SHA1: 1226e9437d5c1a6183a84d3f1d98c9a44bf38f5c
- * SHA256: 3f34dd125553ff1b0408d0515f95b483a7fb1014814446169f2ec852d284ba45
+* md5:    bd982ea50050e45172a48a98691624ff  -
+* sha1:   2f1bf61c1424c6c9573c9194bc551bf315134a2b  -
+* sha256: 105d6d9b1a88ee743936a38307399f0f53ef2b87442c863a644896a827f7a0e1  -
+
+#### bootstrap.dat.zip
+* md5:    1436e1acbd89510f9335281beb8ee781  -
+* sha1:   7c1ad16ca7adbfcdd3b093b8529c2183b62027a8  -
+* sha256: 2ada3376c4fdab93b51b1c4e837e8a15a0eac1a0edc4a45f6123818c34c7722e  -
+
 
 ## Extract bootstrap.dat 
 * Linux: <code>gunzip bootstrap.dat.gz</code>
